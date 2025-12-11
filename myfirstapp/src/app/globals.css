@@ -11,3 +11,16 @@ body {
 h1 {
   color: aqua;
 }
+
+.row {
+  padding: 1em;
+  border: 1px solid red;
+  background-color: #d33d3d30;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
