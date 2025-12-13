@@ -42,6 +42,11 @@ export default function Home() {
             vegis
           </Link>
         </li>
+        <li>
+          <Link href="/images" className={styles.Link}>
+            images
+          </Link>
+        </li>
       </ul>
       <Link
         href="https://my-portfolio-jc4a.vercel.app/"
