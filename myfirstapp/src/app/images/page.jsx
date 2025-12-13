@@ -12,12 +12,16 @@ const page = () => {
         style={{ width: "50%", height: "100%" }}
       />
       <Image
-        src={
-          "https://unsplash.com/photos/dramatic-sunset-over-a-rugged-coastline-with-cactus-foreground-xt5yt49f3_Y"
-        }
+        src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&q=80"
         alt="sample2_image"
         width={1000}
-        height={1000}
+        height={700}
+      />
+      <Image
+        src="https://images.pexels.com/photos/10571242/pexels-photo-10571242.jpeg"
+        alt="sample3_image"
+        width={1000}
+        height={700}
       />
     </div>
   );
