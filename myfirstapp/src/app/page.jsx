@@ -47,6 +47,11 @@ export default function Home() {
             images
           </Link>
         </li>
+        <li>
+          <Link href="/eventHandle" className={styles.Link}>
+            Event Handle
+          </Link>
+        </li>
       </ul>
       <Link
         href="https://my-portfolio-jc4a.vercel.app/"
